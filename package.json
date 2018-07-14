@@ -1,0 +1,13 @@
+{
+  "name": "outside-cli",
+  "version": "1.0.0",
+  "description": "example of real-world cli app",
+  "bin": {
+    "outside": "bin/outside"
+  },
+  "author": "Henry Tabima Giraldo <henrytabima.dev@gmail.com> (https://henrytabima.com)",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
