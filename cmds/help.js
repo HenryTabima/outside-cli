@@ -10,7 +10,12 @@ const menus = {
     outside today <options>
 
     --location, -l ..... the location to use
-    `
+    `,
+  forecast: `
+    outside forecast <options>
+
+    --location, -l ..... the location to use
+  `
 }
 
 module.exports = (args) => {

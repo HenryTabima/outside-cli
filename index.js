@@ -14,12 +14,19 @@ module.exports = () => {
     case 'today':
       require('./cmds/today')(args)
       break
+
     case 'version':
       require('./cmds/version')(args)
       break
+
     case 'help':
       require('./cmds/help')(args)
       break
+
+    case 'forecast':
+      require('./cmds/forecast')(args)
+      break
+
     default:
       console.error(`"${cmd}" is not a valid command!`)
       break
