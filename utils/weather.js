@@ -3,7 +3,7 @@
 const axios = require('axios')
 
 module.exports = async (location) => {
-  const resutls = await axios({
+  const results = await axios({
     method: 'get',
     url: 'https://query.yahooapis.com/v1/public/yql',
     params: {
@@ -12,5 +12,5 @@ module.exports = async (location) => {
     }
   })
 
-  return resutls.data.query.resutls.channel.item
+  return results.data.query.results.channel.item
 }
