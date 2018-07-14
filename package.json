@@ -2,11 +2,19 @@
   "name": "outside-cli",
   "version": "1.0.0",
   "description": "example of real-world cli app",
+  "author": "Henry Tabima Giraldo <henrytabima.dev@gmail.com> (https://henrytabima.com)",
+  "license": "MIT",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HenryTabima/outside-cli.git"
+  },
   "bin": {
     "outside": "bin/outside"
   },
-  "author": "Henry Tabima Giraldo <henrytabima.dev@gmail.com> (https://henrytabima.com)",
-  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "minimist": "^1.2.0",
